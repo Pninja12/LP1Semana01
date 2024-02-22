@@ -3,9 +3,14 @@
 namespace VariousTypes
 {
     class Program
-    {
+    {   
+        /// <summary>
+        /// Mostra todo o tipo de variáveis inteiras e o seu respetivo valor
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
+            //Variaveis tipo inteiro
             int var_int = 1;
             Console.WriteLine($"variável int = {var_int}");
             uint var_uint = 2U;
@@ -24,6 +29,15 @@ namespace VariousTypes
             Console.WriteLine($"variável ushort = {var_ushort}");
             char var_char = '9';
             Console.WriteLine($"variável char = {var_char}");
+
+            //Variaveis unicode
+            char AA = '\u0466';
+            Console.WriteLine($"Funny looking double A together = {AA}");
+            char chatgpt = '\u058D';
+            Console.WriteLine($"ChatGPT logo = {chatgpt}");
+            char cross = '\u2020';
+            Console.WriteLine($"Cross = {cross}");
+
         }
     }
 }
