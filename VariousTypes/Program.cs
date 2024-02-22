@@ -42,10 +42,15 @@ namespace VariousTypes
             double var_double = 10.123456789;
             Console.WriteLine($"Variável double = {var_double}");
             float var_float = 11.987654321f;
-            Console.WriteLine($"Variável double = {var_double}");
+            Console.WriteLine($"Variável double = {var_float}");
             decimal var_decimal = 12.59009m;
-            Console.WriteLine($"Variável double = {var_double}");
+            Console.WriteLine($"Variável double = {var_decimal}");
 
+            //Variaveis booleanas
+            bool var_true = true;
+            Console.WriteLine($"Variável bool = {var_true}");
+            bool var_false = false;
+            Console.WriteLine($"Variável bool = {var_false}");
         }
     }
 }
