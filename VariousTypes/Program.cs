@@ -38,6 +38,14 @@ namespace VariousTypes
             char cross = '\u2020';
             Console.WriteLine($"Cross = {cross}");
 
+            //Variaveis inteiras
+            double var_double = 10.123456789;
+            Console.WriteLine($"Variável double = {var_double}");
+            float var_float = 11.987654321f;
+            Console.WriteLine($"Variável double = {var_double}");
+            decimal var_decimal = 12.59009m;
+            Console.WriteLine($"Variável double = {var_double}");
+
         }
     }
 }
