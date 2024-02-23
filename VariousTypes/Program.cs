@@ -1,11 +1,12 @@
-﻿using System;
+using System;
 
 namespace VariousTypes
 {
     class Program
     {   
         /// <summary>
-        /// Mostra todo o tipo de variáveis inteiras e o seu respetivo valor
+        /// Mostra todo o tipo de variáveis dadas na aula
+        /// e o seu respetivo valor dado por mim
         /// </summary>
         /// <param name="args"></param>
         static void Main(string[] args)
