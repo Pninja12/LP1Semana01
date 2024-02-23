@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManyStrings", "ManyStrings\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AskForInput", "AskForInput\AskForInput.csproj", "{D3F00BDA-2EE8-4603-9E6B-1307717F66C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentraPelaVirgula", "CentraPelaVirgula\CentraPelaVirgula.csproj", "{B0CDF5F7-55E5-499D-A1B5-0C7A867218F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{D3F00BDA-2EE8-4603-9E6B-1307717F66C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3F00BDA-2EE8-4603-9E6B-1307717F66C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3F00BDA-2EE8-4603-9E6B-1307717F66C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0CDF5F7-55E5-499D-A1B5-0C7A867218F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0CDF5F7-55E5-499D-A1B5-0C7A867218F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0CDF5F7-55E5-499D-A1B5-0C7A867218F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0CDF5F7-55E5-499D-A1B5-0C7A867218F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

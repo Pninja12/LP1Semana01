@@ -5,7 +5,7 @@ namespace AskForInput
     class Program
     {
         /// <summary>
-        /// 
+        /// Utilizador digita dois numeros de tipos diferente que se somam
         /// </summary>
         /// <param name="args"></param>
         static void Main(string[] args)
