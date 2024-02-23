@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace ManyStrings
 {
@@ -10,6 +10,11 @@ namespace ManyStrings
         /// <param name="args"></param>
         static void Main(string[] args)
         {
+            //Ex6 variaveis
+            double xx = 1.23456;
+            int ii = 19;
+
+
             //Ex4
             string ola = "Olá \\o";
             Console.WriteLine($"{ola}");
@@ -30,6 +35,12 @@ namespace ManyStrings
 
             Console.WriteLine($"{num}\n{num_num}\n" + numeros);
             Console.WriteLine(numeros_dos_numeros);
+
+            //Ex6
+            Console.WriteLine($"xx = {xx}\nxx com 2 casas decimais = {xx:f2}");
+            Console.WriteLine($"xx em percent. com 1 casa decimal = {xx:p1}");
+            Console.WriteLine($"ii = {ii}\nii em hexadecimal = {ii:x}");
+            Console.WriteLine($"ii em valor monetário = {ii:c}");
         }
     }
 }
