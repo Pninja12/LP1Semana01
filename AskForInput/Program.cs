@@ -17,9 +17,9 @@ namespace AskForInput
 
             Console.Write("Digite um número real: ");
             string resposta2 = Console.ReadLine();
-            float floating = int.Parse(resposta2);
+            float floating = float.Parse(resposta2);
 
-            Console.WriteLine($"{resposta}+{resposta2}={transfoma + floating}");
+            Console.Write($"{resposta} + {resposta2} = {transfoma + floating}");
         }
     }
 }
