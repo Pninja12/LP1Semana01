@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace CentraPelaVirgula
 {
@@ -11,6 +12,9 @@ namespace CentraPelaVirgula
         /// <param name="args"></param>
         static void Main(string[] args)
         {
+            CultureInfo.DefaultThreadCurrentCulture = 
+            CultureInfo.InvariantCulture;
+
             Console.WriteLine("Insere 4 números reais:");
             string resposta1 = Console.ReadLine(); //Pede 1 numero real
             float n1 = float.Parse(resposta1); //muda essa string para um float
